@@ -1,6 +1,6 @@
 ---
 - name: Create a new file
-  hosts: your_target_host  # Replace with the target host or group of hosts where you want to create the file
+  hosts: all  # Replace with the target host or group of hosts where you want to create the file
   tasks:
     - name: Create test.txt
       file:
